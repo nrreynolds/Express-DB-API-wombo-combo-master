@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Müvie Haus</title>
+  <link rel="stylesheet" href="/css/styles.css" type="text/css">
+  <script src="/js/jquery.js"></script>
+  <script src="/js/autogrow.js"></script>
+  <script src="/js/main.js"></script>
+
+</head>
+
+<body class="login-page">
+  <h1>Müvie Haus!</h1>
+  <div class="user-container">
+    <form class="login-form user-form" method="post" action="/users/login">
+      <h2>Log In</h2>
+      <label>Username</label>
+      <input class="login-name" name="username" required type="text" />
+      <label>Password</label>
+      <input class="login-password" name="password" required type="password" />
+      <button class="login-submit">Login</button>
+    </form>
+    <form class="signup-form user-form" method="post" action="/users/signup">
+      <h2>Sign Up</h2>
+      <label>Username</label>
+      <input class="signup-name" name="username" required type="text" />
+      <label>Password</label>
+      <input class="signup-password" name="password" required type="password" />
+      <button class="signup-submit">Sign Up</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
